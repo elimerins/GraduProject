@@ -8,21 +8,19 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home() {
-		return "login";
+		return "home";
 	}
+	
 	@RequestMapping("/create")
 	public String create() {
 		return "create";
 	}
 	
-	@RequestMapping("/login")
-	public String login() {
-		return "login";
-	}
 	@RequestMapping("/manage")
 	public String manage() {
 		return "manage";
 	}
+	
 	@RequestMapping("/search")
 	public String search() {
 		return "search";
